@@ -29,25 +29,89 @@ export interface BrandIconProps extends IconProps {
   name: BrandIconName;
 }
 
-export type BrandIconName = "AndroidFill" | "AngularFill";
+export interface MediaIconProps extends IconProps {
+  name: MediaIconName;
+}
 
-export type GenericIconName =
-  | "Air"
+export interface TechnologyIconProps extends IconProps {
+  name: TechnologyIconName;
+}
+
+export interface ShapeIconProps extends IconProps {
+  name: ShapeIconName;
+}
+
+export type ShapeIconName = "Circle" | "Square" | "Triangle" | "Hexagon";
+
+export type TechnologyIconName =
+  | "RSS"
+  | "Wifi"
+  | "Bluetooth"
+  | "Battery"
+  | "SCSS"
+  | "HTML"
+  | "Android"
+  | "Angular"
+  | "Github"
+  | "PHP"
+  | "Rss"
+  | "TypeScript"
+  | "Vercel"
+  | "Vue"
+  | "Yarn";
+
+export type MediaIconName =
+  | "Play"
   | "AirplayAudio"
   | "AirplayVideo"
-  | "Airpods"
-  | "Alarm"
+  | "Airpods";
+
+export type BrandIconName =
+  | "Facebook"
+  | "Instagram"
+  | "Twitter"
+  | "TikTok"
+  | "Twitch"
+  | "Unsplash"
+  | "Vimeo"
+  | "WhatsApp"
+  | "Yelp"
+  | "YouTube";
+
+export type NavigationIconName =
   | "AlignBottom"
   | "AlignHorizontalCenter"
   | "AlignLeft"
   | "AlignRight"
-  | "AlignTop"
   | "AlignToBottom"
   | "AlignToMiddle"
-  | "AlignVerticalCenter";
-
-export type NavigationIconName =
-  | "ArrowForward"
+  | "AlignTop"
+  | "AlignToTop"
+  | "AlignVerticalCenter"
   | "ArrowBack"
+  | "ArrowBackThickFilled"
   | "ArrowBackThick"
-  | "ArrowBackThickFill";
+  | "ArrowClockwise"
+  | "ArrowCounterClockwise"
+  | "ArrowCycle"
+  | "ArrowDown"
+  | "ArrowDownLeft"
+  | "ArrowDownRight"
+  | "ArrowDownThick"
+  | "ArrowForward"
+  | "ArrowForwardThickFilled"
+  | "ArrowForwardThick"
+  | "ArrowLeft"
+  | "ArrowLeftThick"
+  | "ArrowRepeat"
+  | "ArrowRight"
+  | "ArrowRightLeft"
+  | "ArrowRightThick"
+  | "ArrowShuffle"
+  | "ArrowUp"
+  | "ArrowUpDown"
+  | "ArrowUpLeft"
+  | "ArrowUpRight"
+  | "ArrowUpThick";
+
+export type GenericIconName = "Air" | "Alarm";

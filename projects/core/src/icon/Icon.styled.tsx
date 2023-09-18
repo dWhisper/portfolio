@@ -6,7 +6,7 @@ const DEFAULT_COLOR = "black";
 export const StyledSvg = styled.svg<IconStyledProps>`
   ${({ color = DEFAULT_COLOR }) => {
     return `
-      fill: ${color};
+      // fill: ${color};
     `;
   }}
 `;
