@@ -1,12 +1,4 @@
 import { ArrowForward } from "../wrapped-icons/navigation/ArrowForward";
-import { AlignBottom } from "../wrapped-icons/navigation/AlignBottom";
-import { AlignHorizontalCenter } from "../wrapped-icons/navigation/AlignHorizontalCenter";
-import { AlignLeft } from "../wrapped-icons/navigation/AlignLeft";
-import { AlignRight } from "../wrapped-icons/navigation/AlignRight";
-import { AlignTop } from "../wrapped-icons/navigation/AlignTop";
-import { AlignToBottom } from "../wrapped-icons/navigation/AlignToBottom";
-import { AlignToMiddle } from "../wrapped-icons/navigation/AlignToMiddle";
-import { AlignVerticalCenter } from "../wrapped-icons/navigation/AlignVerticalCenter";
 import { ArrowBackThick } from "../wrapped-icons/navigation/ArrowBackThick";
 import { ArrowBack } from "../wrapped-icons/navigation/ArrowBack";
 import { ArrowBackThickFill } from "../wrapped-icons/navigation/ArrowBackThickFill";
@@ -31,25 +23,15 @@ import { ArrowRightThick } from "../wrapped-icons/navigation/ArrowRightThick";
 import { ArrowRightLeft } from "../wrapped-icons/navigation/ArrowRightLeft";
 import { ArrowRight } from "../wrapped-icons/navigation/ArrowRight";
 import { ArrowRepeat } from "../wrapped-icons/navigation/ArrowRepeat";
-import { AlignToTop } from "../wrapped-icons/navigation/AlignToTop";
 import { Box } from "../wrapped-icons/shapes/Box";
 
 const NavigationIconCollection = new Map();
 // Error State Box
 NavigationIconCollection.set("Empty", Box);
 
-NavigationIconCollection.set("AlignBottom", AlignBottom);
-NavigationIconCollection.set("AlignHorizontalCenter", AlignHorizontalCenter);
-NavigationIconCollection.set("AlignLeft", AlignLeft);
-NavigationIconCollection.set("AlignRight", AlignRight);
-NavigationIconCollection.set("AlignToBottom", AlignToBottom);
-NavigationIconCollection.set("AlignToMiddle", AlignToMiddle);
-NavigationIconCollection.set("AlignTop", AlignTop);
-NavigationIconCollection.set("AlignToTop", AlignToTop);
-NavigationIconCollection.set("AlignVerticalCenter", AlignVerticalCenter);
 NavigationIconCollection.set("ArrowBack", ArrowBack);
 NavigationIconCollection.set("ArrowBackThick", ArrowBackThick);
-NavigationIconCollection.set("ArrowBackThickFill", ArrowBackThickFill);
+NavigationIconCollection.set("ArrowBackThickFilled", ArrowBackThickFill);
 NavigationIconCollection.set("ArrowClockwise", ArrowClockwise);
 NavigationIconCollection.set("ArrowCounterClockwise", ArrowCounterClockwise);
 NavigationIconCollection.set("ArrowCycle", ArrowCycle);
@@ -59,7 +41,7 @@ NavigationIconCollection.set("ArrowDownRight", ArrowDownRight);
 NavigationIconCollection.set("ArrowDownThick", ArrowDownThick);
 NavigationIconCollection.set("ArrowForward", ArrowForward);
 NavigationIconCollection.set("ArrowForwardThick", ArrowForwardThick);
-NavigationIconCollection.set("ArrowForwardThickFill", ArrowForwardThickFill);
+NavigationIconCollection.set("ArrowForwardThickFilled", ArrowForwardThickFill);
 NavigationIconCollection.set("ArrowLeft", ArrowLeft);
 NavigationIconCollection.set("ArrowLeftThick", ArrowLeftThick);
 NavigationIconCollection.set("ArrowRepeat", ArrowRepeat);

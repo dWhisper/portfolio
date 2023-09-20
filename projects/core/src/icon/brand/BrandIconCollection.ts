@@ -9,11 +9,13 @@ import { Box } from "../wrapped-icons/shapes/Box";
 import { Facebook } from "../wrapped-icons/brand/Facebook";
 import { Twitter } from "../wrapped-icons/brand/Twitter";
 import { Instagram } from "../wrapped-icons/brand/Instagram";
+import { Behance } from "../wrapped-icons/brand/Behance";
 
 const BrandIconCollection = new Map();
 
 BrandIconCollection.set("Empty", Box);
 
+BrandIconCollection.set("Behance", Behance);
 BrandIconCollection.set("Facebook", Facebook);
 BrandIconCollection.set("Twitter", Twitter);
 BrandIconCollection.set("Instagram", Instagram);

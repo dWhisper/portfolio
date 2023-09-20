@@ -9,6 +9,11 @@ import { YarnFill } from "../wrapped-icons/technology/YarnFill";
 import { VueFill } from "../wrapped-icons/technology/VueFill";
 import { Box } from "../wrapped-icons/shapes/Box";
 import { DjangoFill } from "../wrapped-icons/technology/DjangoFill";
+import { BootstrapFill } from "../wrapped-icons/technology/BootstrapFill";
+import { AugmentedReality } from "../wrapped-icons/technology/AugmentedReality";
+import { BatteryCharging } from "../wrapped-icons/technology/BatteryCharging";
+import { BatteryEmpty } from "../wrapped-icons/technology/BatteryEmpty";
+import { Bluetooth } from "../wrapped-icons/technology/Bluetooth";
 
 const TechnologyIconCollection = new Map();
 
@@ -17,6 +22,12 @@ TechnologyIconCollection.set("Empty", Box);
 
 TechnologyIconCollection.set("Android", AndroidFill);
 TechnologyIconCollection.set("Angular", AngularFill);
+TechnologyIconCollection.set("AugmentedReality", AugmentedReality);
+TechnologyIconCollection.set("BatteryCharging", BatteryCharging);
+TechnologyIconCollection.set("BatteryEmpty", BatteryEmpty);
+TechnologyIconCollection.set("Bluetooth", Bluetooth);
+TechnologyIconCollection.set("Bootstrap", BootstrapFill);
+TechnologyIconCollection.set("Django", DjangoFill);
 TechnologyIconCollection.set("Github", GithubFill);
 TechnologyIconCollection.set("PHP", PHPFill);
 TechnologyIconCollection.set("RSS", RssFill);
@@ -24,6 +35,5 @@ TechnologyIconCollection.set("TypeScript", TypeScriptFill);
 TechnologyIconCollection.set("Vercel", VercelFill);
 TechnologyIconCollection.set("Vue", VueFill);
 TechnologyIconCollection.set("Yarn", YarnFill);
-TechnologyIconCollection.set("Django", DjangoFill);
 
 export { TechnologyIconCollection };

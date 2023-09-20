@@ -4,20 +4,25 @@ import {
   NavigationIconName,
   TechnologyIconName,
   MediaIconName,
+  MessagingIconName,
+  EcomIconName,
+  DirectionIconName,
+  TransportationIconName,
 } from "@nmportfolio/core";
 
 export const technologyIconNames: TechnologyIconName[] = [
-  "RSS",
-  "Wifi",
+  "Django",
   "Bluetooth",
-  "Battery",
-  "SCSS",
-  "HTML",
   "Android",
+  "AugmentedReality",
+  "BatteryCharging",
+  "BatteryEmpty",
+  "Bootstrap",
+  "Bluetooth",
   "Angular",
   "Github",
   "PHP",
-  "Rss",
+  "RSS",
   "TypeScript",
   "Vercel",
   "Vue",
@@ -25,6 +30,7 @@ export const technologyIconNames: TechnologyIconName[] = [
 ];
 
 export const brandIconNames: BrandIconName[] = [
+  "Behance",
   "Facebook",
   "Instagram",
   "Twitter",
@@ -37,25 +43,42 @@ export const brandIconNames: BrandIconName[] = [
   "YouTube",
 ];
 
-export const genericIconNames: GenericIconName[] = ["Air", "Alarm"];
+export const ecomIconNames: EcomIconName[] = ["Bank", "Basket", "Bitcoin"];
+
+export const genericIconNames: GenericIconName[] = [
+  "Air",
+  "Alarm",
+  "Attach",
+  "Backspace",
+  "BackspaceFilled",
+  "Bell",
+  "Block",
+  "Book",
+  "BookOpen",
+  "Briefcase",
+  "Bug",
+];
 
 export const mediaIconNames: MediaIconName[] = [
-  "Play",
   "AirplayAudio",
   "AirplayVideo",
   "Airpods",
 ];
 
-export const navigationIconNames: NavigationIconName[] = [
-  "AlignBottom",
+export const directionIconNames: DirectionIconName[] = [
   "AlignHorizontalCenter",
+  "AlignVerticalCenter",
+  "AlignBottom",
+  "AlignTop",
   "AlignLeft",
   "AlignRight",
   "AlignToBottom",
   "AlignToMiddle",
-  "AlignTop",
   "AlignToTop",
-  "AlignVerticalCenter",
+  "Ascending",
+];
+
+export const navigationIconNames: NavigationIconName[] = [
   "ArrowBack",
   "ArrowBackThickFilled",
   "ArrowBackThick",
@@ -81,4 +104,20 @@ export const navigationIconNames: NavigationIconName[] = [
   "ArrowUpLeft",
   "ArrowUpRight",
   "ArrowUpThick",
+];
+
+export const messagingIconNames: MessagingIconName[] = [
+  "ChatAdd",
+  "ChatApprove",
+  "ChatBubble",
+  "ChatDots",
+  "ChatError",
+  "ChatQuestion",
+  "ChatReject",
+  "ChatRemove",
+];
+
+export const transportationIconName: TransportationIconName[] = [
+  "Bicycle",
+  "Boat",
 ];

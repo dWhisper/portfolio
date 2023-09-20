@@ -41,20 +41,64 @@ export interface ShapeIconProps extends IconProps {
   name: ShapeIconName;
 }
 
+export interface MessagingIconProps extends IconProps {
+  name: MessagingIconName;
+}
+
+export type MessagingIconName =
+  | "ChatAdd"
+  | "ChatApprove"
+  | "ChatBubble"
+  | "ChatDots"
+  | "ChatError"
+  | "ChatQuestion"
+  | "ChatReject"
+  | "ChatRemove";
+
+export interface DirectionIconProps extends IconProps {
+  name: DirectionIconName;
+}
+
+export type DirectionIconName =
+  | "Ascending"
+  | "AlignBottom"
+  | "AlignHorizontalCenter"
+  | "AlignLeft"
+  | "AlignRight"
+  | "AlignToBottom"
+  | "AlignToMiddle"
+  | "AlignTop"
+  | "AlignToTop"
+  | "AlignVerticalCenter";
+
+export interface EcomIconProps extends IconProps {
+  name: EcomIconName;
+}
+
+export type EcomIconName = "Bank" | "Basket" | "Bitcoin";
+
+export interface TransportationIconProps extends IconProps {
+  name: TransportationIconName;
+}
+
+export type TransportationIconName = "Bicycle" | "Boat";
+
 export type ShapeIconName = "Circle" | "Square" | "Triangle" | "Hexagon";
 
 export type TechnologyIconName =
-  | "RSS"
-  | "Wifi"
+  | "Django"
   | "Bluetooth"
-  | "Battery"
+  | "BatteryEmpty"
+  | "BatteryCharging"
+  | "AugmentedReality"
   | "SCSS"
   | "HTML"
   | "Android"
   | "Angular"
+  | "Bootstrap"
   | "Github"
   | "PHP"
-  | "Rss"
+  | "RSS"
   | "TypeScript"
   | "Vercel"
   | "Vue"
@@ -67,6 +111,7 @@ export type MediaIconName =
   | "Airpods";
 
 export type BrandIconName =
+  | "Behance"
   | "Facebook"
   | "Instagram"
   | "Twitter"
@@ -79,15 +124,6 @@ export type BrandIconName =
   | "YouTube";
 
 export type NavigationIconName =
-  | "AlignBottom"
-  | "AlignHorizontalCenter"
-  | "AlignLeft"
-  | "AlignRight"
-  | "AlignToBottom"
-  | "AlignToMiddle"
-  | "AlignTop"
-  | "AlignToTop"
-  | "AlignVerticalCenter"
   | "ArrowBack"
   | "ArrowBackThickFilled"
   | "ArrowBackThick"
@@ -114,4 +150,15 @@ export type NavigationIconName =
   | "ArrowUpRight"
   | "ArrowUpThick";
 
-export type GenericIconName = "Air" | "Alarm";
+export type GenericIconName =
+  | "Air"
+  | "Alarm"
+  | "Attach"
+  | "Backspace"
+  | "BackspaceFilled"
+  | "Bell"
+  | "Block"
+  | "Book"
+  | "BookOpen"
+  | "Briefcase"
+  | "Bug";
