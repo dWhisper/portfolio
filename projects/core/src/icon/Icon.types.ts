@@ -17,102 +17,6 @@ export interface IconProps {
   color: string;
 }
 
-export interface GenericIconProps extends IconProps {
-  name: GenericIconName;
-}
-
-export interface NavigationIconProps extends IconProps {
-  name: NavigationIconName;
-}
-
-export interface BrandIconProps extends IconProps {
-  name: BrandIconName;
-}
-
-export interface MediaIconProps extends IconProps {
-  name: MediaIconName;
-}
-
-export interface TechnologyIconProps extends IconProps {
-  name: TechnologyIconName;
-}
-
-export interface ShapeIconProps extends IconProps {
-  name: ShapeIconName;
-}
-
-export interface MessagingIconProps extends IconProps {
-  name: MessagingIconName;
-}
-
-export type MessagingIconName =
-  | "ChatAdd"
-  | "ChatApprove"
-  | "ChatBubble"
-  | "ChatDots"
-  | "ChatError"
-  | "ChatQuestion"
-  | "ChatReject"
-  | "ChatRemove";
-
-export interface DirectionIconProps extends IconProps {
-  name: DirectionIconName;
-}
-
-export type DirectionIconName =
-  | "Ascending"
-  | "AlignBottom"
-  | "AlignHorizontalCenter"
-  | "AlignLeft"
-  | "AlignRight"
-  | "AlignToBottom"
-  | "AlignToMiddle"
-  | "AlignTop"
-  | "AlignToTop"
-  | "AlignVerticalCenter";
-
-export interface EcomIconProps extends IconProps {
-  name: EcomIconName;
-}
-
-export type EcomIconName = "Bank" | "Basket" | "Bitcoin";
-
-export interface TransportationIconProps extends IconProps {
-  name: TransportationIconName;
-}
-
-export type TransportationIconName = "Bicycle" | "Boat";
-
-export type ShapeIconName = "Circle" | "Square" | "Triangle" | "Hexagon";
-
-export type TechnologyIconName =
-  | "Django"
-  | "Bluetooth"
-  | "BatteryEmpty"
-  | "BatteryCharging"
-  | "BatteryFull"
-  | "BatteryLow"
-  | "BatteryMedium"
-  | "AugmentedReality"
-  | "SCSS"
-  | "HTML"
-  | "Android"
-  | "Angular"
-  | "Bootstrap"
-  | "Github"
-  | "PHP"
-  | "RSS"
-  | "TypeScript"
-  | "Vercel"
-  | "Vue"
-  | "Yarn";
-
-export type MediaIconName =
-  | "Play"
-  | "AirplayAudio"
-  | "AirplayVideo"
-  | "Airpods";
-
 export type BrandIconName =
   | "Behance"
   | "Facebook"
@@ -125,6 +29,89 @@ export type BrandIconName =
   | "WhatsApp"
   | "Yelp"
   | "YouTube";
+
+export type DirectionIconName =
+  | "Ascending"
+  | "AlignBottom"
+  | "AlignHorizontalCenter"
+  | "AlignLeft"
+  | "AlignRight"
+  | "AlignToBottom"
+  | "AlignToMiddle"
+  | "AlignTop"
+  | "AlignToTop"
+  | "AlignVerticalCenter"
+  | "CaretCircleDown"
+  | "CaretCircleDownFilled"
+  | "CaretCircleLeft"
+  | "CaretCircleLeftFilled"
+  | "CaretCircleRight"
+  | "CaretCircleRightFilled"
+  | "CaretCircleUp"
+  | "CaretCircleUpFilled"
+  | "ChevronCircleDown"
+  | "ChevronCircleDownFilled"
+  | "ChevronCircleLeft"
+  | "ChevronCircleLeftFilled"
+  | "ChevronCircleRight"
+  | "ChevronCircleRightFilled"
+  | "ChevronCircleUp"
+  | "ChevronCircleUpFilled"
+  | "ChevronDown"
+  | "ChevronDownSmall"
+  | "ChevronHorizontal"
+  | "ChevronLeft"
+  | "ChevronLeftSmall"
+  | "ChevronRight"
+  | "ChevronRightSmall"
+  | "ChevronUp"
+  | "ChevronUpSmall"
+  | "ChevronVertical";
+
+export type EcomIconName = "Bank" | "Basket" | "Bitcoin" | "Cart";
+
+export type MessagingIconName =
+  | "ChatAdd"
+  | "ChatApprove"
+  | "ChatBubble"
+  | "ChatDots"
+  | "ChatError"
+  | "ChatQuestion"
+  | "ChatReject"
+  | "ChatRemove";
+
+export type GenericIconName =
+  | "Air"
+  | "Alarm"
+  | "AlertCircle"
+  | "AlertCircleFilled"
+  | "Attach"
+  | "Backspace"
+  | "BackspaceFilled"
+  | "Bell"
+  | "Block"
+  | "Book"
+  | "BookOpen"
+  | "Briefcase"
+  | "Bug"
+  | "Cake"
+  | "Calculator"
+  | "Calendar"
+  | "Camera"
+  | "Check"
+  | "CheckBox"
+  | "CheckBoxFilled"
+  | "CheckCircle"
+  | "CheckCircleFilled"
+  | "Chess"
+  | "ErrorCircle"
+  | "ErrorCircleFilled";
+
+export type MediaIconName =
+  | "Play"
+  | "AirplayAudio"
+  | "AirplayVideo"
+  | "Airpods";
 
 export type NavigationIconName =
   | "ArrowBack"
@@ -153,18 +140,75 @@ export type NavigationIconName =
   | "ArrowUpRight"
   | "ArrowUpThick";
 
-export type GenericIconName =
-  | "Air"
-  | "Alarm"
-  | "Attach"
-  | "Backspace"
-  | "BackspaceFilled"
-  | "Bell"
-  | "Block"
-  | "Book"
-  | "BookOpen"
-  | "Briefcase"
-  | "Bug"
-  | "Cake"
-  | "Calculator"
-  | "Calendar";
+export type ShapeIconName =
+  | "Box"
+  | "Circle"
+  | "CircleFilled"
+  | "MinusCircle"
+  | "MinusCircleFilled"
+  | "PlusCircle"
+  | "PlusCircleFilled";
+
+export type TechnologyIconName =
+  | "Django"
+  | "Bluetooth"
+  | "BatteryEmpty"
+  | "BatteryCharging"
+  | "BatteryFull"
+  | "BatteryLow"
+  | "BatteryMedium"
+  | "AugmentedReality"
+  | "SCSS"
+  | "HTML"
+  | "Android"
+  | "Angular"
+  | "Bootstrap"
+  | "Github"
+  | "PHP"
+  | "RSS"
+  | "TypeScript"
+  | "Vercel"
+  | "Vue"
+  | "Yarn";
+
+export type TransportationIconName = "Bicycle" | "Boat" | "MapPin";
+
+export interface TransportationIconProps extends IconProps {
+  name: TransportationIconName;
+}
+
+export interface DirectionIconProps extends IconProps {
+  name: DirectionIconName;
+}
+
+export interface EcomIconProps extends IconProps {
+  name: EcomIconName;
+}
+
+export interface GenericIconProps extends IconProps {
+  name: GenericIconName;
+}
+
+export interface NavigationIconProps extends IconProps {
+  name: NavigationIconName;
+}
+
+export interface BrandIconProps extends IconProps {
+  name: BrandIconName;
+}
+
+export interface MediaIconProps extends IconProps {
+  name: MediaIconName;
+}
+
+export interface TechnologyIconProps extends IconProps {
+  name: TechnologyIconName;
+}
+
+export interface ShapeIconProps extends IconProps {
+  name: ShapeIconName;
+}
+
+export interface MessagingIconProps extends IconProps {
+  name: MessagingIconName;
+}

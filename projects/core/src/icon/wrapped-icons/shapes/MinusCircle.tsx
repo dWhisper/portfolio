@@ -1,8 +1,8 @@
 import React from "react";
-import { StyledSvg } from "../Icon.styled";
-import { StyledSvgProps } from "../Icon.types";
+import { StyledSvg } from "../../Icon.styled";
+import { StyledSvgProps } from "../../Icon.types";
 
-export const XXXXXX = ({
+export const MinusCircle = ({
   size,
   color,
   pointerEvents,
@@ -18,6 +18,14 @@ export const XXXXXX = ({
       fill={"none"}
       width={size}
       {...rest}
-    ></StyledSvg>
+    >
+      <path
+        d="M16 12L12 12L8 12"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <circle cx="12" cy="12" r="10" stroke={color} strokeWidth="2" />
+    </StyledSvg>
   );
 };

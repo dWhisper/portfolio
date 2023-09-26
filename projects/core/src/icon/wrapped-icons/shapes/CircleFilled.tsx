@@ -1,8 +1,8 @@
 import React from "react";
-import { StyledSvg } from "../Icon.styled";
-import { StyledSvgProps } from "../Icon.types";
+import { StyledSvg } from "../../Icon.styled";
+import { StyledSvgProps } from "../../Icon.types";
 
-export const XXXXXX = ({
+export const CircleFilled = ({
   size,
   color,
   pointerEvents,
@@ -18,6 +18,8 @@ export const XXXXXX = ({
       fill={"none"}
       width={size}
       {...rest}
-    ></StyledSvg>
+    >
+      <circle cx="12" cy="12" r="11" fill={color} />
+    </StyledSvg>
   );
 };

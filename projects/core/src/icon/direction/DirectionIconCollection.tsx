@@ -9,6 +9,32 @@ import { AlignToTop } from "../wrapped-icons/direction/AlignToTop";
 import { AlignTop } from "../wrapped-icons/direction/AlignTop";
 import { Ascending } from "../wrapped-icons/direction/Ascending";
 import { AlignVerticalCenter } from "../wrapped-icons/direction/AlignVerticalCenter";
+import { CaretCircleDown } from "../wrapped-icons/direction/CaretCircleDown";
+import { CaretCircleDownFilled } from "../wrapped-icons/direction/CaretCircleDownFilled";
+import { CaretCircleLeft } from "../wrapped-icons/direction/CaretCircleLeft";
+import { CaretCircleUpFilled } from "../wrapped-icons/direction/CaretCircleUpFilled";
+import { CaretCircleLeftFilled } from "../wrapped-icons/direction/CaretCircleLeftFilled";
+import { CaretCircleRight } from "../wrapped-icons/direction/CaretCircleRight";
+import { CaretCircleUp } from "../wrapped-icons/direction/CaretCircleUp";
+import { CaretCircleRightFilled } from "../wrapped-icons/direction/CaretCircleRightFilled";
+import { ChevronCircleLeft } from "../wrapped-icons/direction/ChevronCircleLeft";
+import { ChevronCircleLeftFilled } from "../wrapped-icons/direction/ChevronCircleLeftFilled";
+import { ChevronCircleRightFilled } from "../wrapped-icons/direction/ChevronCircleRightFilled";
+import { ChevronCircleUpFilled } from "../wrapped-icons/direction/ChevronCircleUpFilled";
+import { ChevronCircleUp } from "../wrapped-icons/direction/ChevronCircleUp";
+import { ChevronDownSmall } from "../wrapped-icons/direction/ChevronDownSmall";
+import { ChevronDown } from "../wrapped-icons/direction/ChevronDown";
+import { ChevronHorizontal } from "../wrapped-icons/direction/ChevronHorizontal";
+import { ChevronLeft } from "../wrapped-icons/direction/ChevronLeft";
+import { ChevronLeftSmall } from "../wrapped-icons/direction/ChevronLeftSmall";
+import { ChevronRight } from "../wrapped-icons/direction/ChevronRight";
+import { ChevronRightSmall } from "../wrapped-icons/direction/ChevronRightSmall";
+import { ChevronUp } from "../wrapped-icons/direction/ChevronUp";
+import { ChevronUpSmall } from "../wrapped-icons/direction/ChevronUpSmall";
+import { ChevronVertical } from "../wrapped-icons/direction/ChevronVertical";
+import { ChevronCircleDown } from "../wrapped-icons/direction/ChevronCircleDown";
+import { ChevronCircleDownFilled } from "../wrapped-icons/direction/ChevronCircleDownFilled";
+import { ChevronCircleRight } from "../wrapped-icons/direction/ChevronCircleRight";
 
 const DirectionIconCollection = new Map();
 
@@ -24,5 +50,34 @@ DirectionIconCollection.set("AlignToMiddle", AlignToMiddle);
 DirectionIconCollection.set("AlignToTop", AlignToTop);
 DirectionIconCollection.set("AlignTop", AlignTop);
 DirectionIconCollection.set("Ascending", Ascending);
+DirectionIconCollection.set("CaretCircleDown", CaretCircleDown);
+DirectionIconCollection.set("CaretCircleDownFilled", CaretCircleDownFilled);
+DirectionIconCollection.set("CaretCircleLeft", CaretCircleLeft);
+DirectionIconCollection.set("CaretCircleLeftFilled", CaretCircleLeftFilled);
+DirectionIconCollection.set("CaretCircleRight", CaretCircleRight);
+DirectionIconCollection.set("CaretCircleRightFilled", CaretCircleRightFilled);
+DirectionIconCollection.set("CaretCircleUp", CaretCircleUp);
+DirectionIconCollection.set("CaretCircleUpFilled", CaretCircleUpFilled);
+DirectionIconCollection.set("ChevronCircleLeft", ChevronCircleLeft);
+DirectionIconCollection.set("ChevronCircleLeftFilled", ChevronCircleLeftFilled);
+DirectionIconCollection.set("ChevronCircleRight", ChevronCircleRight);
+DirectionIconCollection.set(
+  "ChevronCircleRightFilled",
+  ChevronCircleRightFilled,
+);
+DirectionIconCollection.set("ChevronCircleUp", ChevronCircleUp);
+DirectionIconCollection.set("ChevronCircleUpFilled", ChevronCircleUpFilled);
+DirectionIconCollection.set("ChevronCircleDown", ChevronCircleDown);
+DirectionIconCollection.set("ChevronCircleDownFilled", ChevronCircleDownFilled);
+DirectionIconCollection.set("ChevronDown", ChevronDown);
+DirectionIconCollection.set("ChevronDownSmall", ChevronDownSmall);
+DirectionIconCollection.set("ChevronHorizontal", ChevronHorizontal);
+DirectionIconCollection.set("ChevronLeft", ChevronLeft);
+DirectionIconCollection.set("ChevronLeftSmall", ChevronLeftSmall);
+DirectionIconCollection.set("ChevronRight", ChevronRight);
+DirectionIconCollection.set("ChevronRightSmall", ChevronRightSmall);
+DirectionIconCollection.set("ChevronUp", ChevronUp);
+DirectionIconCollection.set("ChevronUpSmall", ChevronUpSmall);
+DirectionIconCollection.set("ChevronVertical", ChevronVertical);
 
 export { DirectionIconCollection };

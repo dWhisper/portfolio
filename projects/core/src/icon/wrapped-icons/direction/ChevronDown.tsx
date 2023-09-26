@@ -1,8 +1,8 @@
 import React from "react";
-import { StyledSvg } from "../Icon.styled";
-import { StyledSvgProps } from "../Icon.types";
+import { StyledSvg } from "../../Icon.styled";
+import { StyledSvgProps } from "../../Icon.types";
 
-export const XXXXXX = ({
+export const ChevronDown = ({
   size,
   color,
   pointerEvents,
@@ -14,10 +14,18 @@ export const XXXXXX = ({
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       pointerEvents={events}
-      height={size}
       fill={"none"}
+      height={size}
       width={size}
       {...rest}
-    ></StyledSvg>
+    >
+      <path
+        d="M4 9L12 17L20 9"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </StyledSvg>
   );
 };

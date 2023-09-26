@@ -8,29 +8,8 @@ import {
   EcomIconName,
   DirectionIconName,
   TransportationIconName,
+  ShapeIconName,
 } from "@nmportfolio/core";
-
-export const technologyIconNames: TechnologyIconName[] = [
-  "Django",
-  "Bluetooth",
-  "Android",
-  "AugmentedReality",
-  "BatteryCharging",
-  "BatteryEmpty",
-  "BatteryFull",
-  "BatteryLow",
-  "BatteryMedium",
-  "Bootstrap",
-  "Bluetooth",
-  "Angular",
-  "Github",
-  "PHP",
-  "RSS",
-  "TypeScript",
-  "Vercel",
-  "Vue",
-  "Yarn",
-];
 
 export const brandIconNames: BrandIconName[] = [
   "Behance",
@@ -46,7 +25,51 @@ export const brandIconNames: BrandIconName[] = [
   "YouTube",
 ];
 
-export const ecomIconNames: EcomIconName[] = ["Bank", "Basket", "Bitcoin"];
+export const directionIconNames: DirectionIconName[] = [
+  "AlignHorizontalCenter",
+  "AlignVerticalCenter",
+  "AlignBottom",
+  "AlignTop",
+  "AlignLeft",
+  "AlignRight",
+  "AlignToBottom",
+  "AlignToMiddle",
+  "AlignToTop",
+  "Ascending",
+  "CaretCircleDown",
+  "CaretCircleDownFilled",
+  "CaretCircleLeft",
+  "CaretCircleLeftFilled",
+  "CaretCircleRight",
+  "CaretCircleRightFilled",
+  "CaretCircleUp",
+  "CaretCircleUpFilled",
+  "ChevronCircleDown",
+  "ChevronCircleDownFilled",
+  "ChevronCircleLeft",
+  "ChevronCircleLeftFilled",
+  "ChevronCircleRight",
+  "ChevronCircleRightFilled",
+  "ChevronCircleUp",
+  "ChevronCircleUpFilled",
+  "ChevronDown",
+  "ChevronDownSmall",
+  "ChevronHorizontal",
+  "ChevronLeft",
+  "ChevronLeftSmall",
+  "ChevronRight",
+  "ChevronRightSmall",
+  "ChevronUp",
+  "ChevronUpSmall",
+  "ChevronVertical",
+];
+
+export const ecomIconNames: EcomIconName[] = [
+  "Bank",
+  "Basket",
+  "Bitcoin",
+  "Cart",
+];
 
 export const genericIconNames: GenericIconName[] = [
   "Air",
@@ -63,6 +86,15 @@ export const genericIconNames: GenericIconName[] = [
   "Cake",
   "Calculator",
   "Calendar",
+  "Camera",
+  "Check",
+  "CheckBox",
+  "CheckBoxFilled",
+  "CheckCircle",
+  "CheckCircleFilled",
+  "Chess",
+  "ErrorCircle",
+  "ErrorCircleFilled",
 ];
 
 export const mediaIconNames: MediaIconName[] = [
@@ -71,17 +103,15 @@ export const mediaIconNames: MediaIconName[] = [
   "Airpods",
 ];
 
-export const directionIconNames: DirectionIconName[] = [
-  "AlignHorizontalCenter",
-  "AlignVerticalCenter",
-  "AlignBottom",
-  "AlignTop",
-  "AlignLeft",
-  "AlignRight",
-  "AlignToBottom",
-  "AlignToMiddle",
-  "AlignToTop",
-  "Ascending",
+export const messagingIconNames: MessagingIconName[] = [
+  "ChatAdd",
+  "ChatApprove",
+  "ChatBubble",
+  "ChatDots",
+  "ChatError",
+  "ChatQuestion",
+  "ChatReject",
+  "ChatRemove",
 ];
 
 export const navigationIconNames: NavigationIconName[] = [
@@ -112,18 +142,40 @@ export const navigationIconNames: NavigationIconName[] = [
   "ArrowUpThick",
 ];
 
-export const messagingIconNames: MessagingIconName[] = [
-  "ChatAdd",
-  "ChatApprove",
-  "ChatBubble",
-  "ChatDots",
-  "ChatError",
-  "ChatQuestion",
-  "ChatReject",
-  "ChatRemove",
+export const shapeIconNames: ShapeIconName[] = [
+  "Box",
+  "Circle",
+  "CircleFilled",
+  "MinusCircle",
+  "MinusCircleFilled",
+  "PlusCircle",
+  "PlusCircleFilled",
+];
+
+export const technologyIconNames: TechnologyIconName[] = [
+  "Django",
+  "Bluetooth",
+  "Android",
+  "AugmentedReality",
+  "BatteryCharging",
+  "BatteryEmpty",
+  "BatteryFull",
+  "BatteryLow",
+  "BatteryMedium",
+  "Bootstrap",
+  "Bluetooth",
+  "Angular",
+  "Github",
+  "PHP",
+  "RSS",
+  "TypeScript",
+  "Vercel",
+  "Vue",
+  "Yarn",
 ];
 
 export const transportationIconName: TransportationIconName[] = [
   "Bicycle",
   "Boat",
+  "MapPin",
 ];

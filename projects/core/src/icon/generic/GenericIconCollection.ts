@@ -13,6 +13,17 @@ import { Bug } from "../wrapped-icons/generic/Bug";
 import { Cake } from "../wrapped-icons/generic/Cake";
 import { Calculator } from "../wrapped-icons/generic/Calculator";
 import { Calendar } from "../wrapped-icons/generic/Calendar";
+import { AlertCircle } from "../wrapped-icons/generic/AlertCircle";
+import { AlertCircleFilled } from "../wrapped-icons/generic/AlertCircleFilled";
+import { Camera } from "../wrapped-icons/generic/Camera";
+import { Check } from "../wrapped-icons/generic/Check";
+import { CheckBox } from "../wrapped-icons/generic/CheckBox";
+import { CheckBoxFilled } from "../wrapped-icons/generic/CheckBoxFilled";
+import { Chess } from "../wrapped-icons/generic/Chess";
+import { ErrorCircle } from "../wrapped-icons/generic/ErrorCircle";
+import { ErrorCircleFilled } from "../wrapped-icons/generic/ErrorCircleFilled";
+import { CheckCircle } from "../wrapped-icons/generic/CheckCircle";
+import { CheckCircleFilled } from "../wrapped-icons/generic/CheckCircleFilled";
 
 const GenericIconCollection = new Map();
 
@@ -21,6 +32,8 @@ GenericIconCollection.set("Empty", Box);
 
 GenericIconCollection.set("Air", Air);
 GenericIconCollection.set("Alarm", Alarm);
+GenericIconCollection.set("AlertCircle", AlertCircle);
+GenericIconCollection.set("AlertCircleFilled", AlertCircleFilled);
 GenericIconCollection.set("Attach", Attach);
 GenericIconCollection.set("Backspace", Backspace);
 GenericIconCollection.set("BackspaceFilled", BackspaceFill);
@@ -33,5 +46,14 @@ GenericIconCollection.set("Bug", Bug);
 GenericIconCollection.set("Cake", Cake);
 GenericIconCollection.set("Calculator", Calculator);
 GenericIconCollection.set("Calendar", Calendar);
+GenericIconCollection.set("Camera", Camera);
+GenericIconCollection.set("Check", Check);
+GenericIconCollection.set("CheckBox", CheckBox);
+GenericIconCollection.set("CheckBoxFilled", CheckBoxFilled);
+GenericIconCollection.set("Chess", Chess);
+GenericIconCollection.set("ErrorCircle", ErrorCircle);
+GenericIconCollection.set("ErrorCircleFilled", ErrorCircleFilled);
+GenericIconCollection.set("CheckCircle", CheckCircle);
+GenericIconCollection.set("CheckCircleFilled", CheckCircleFilled);
 
 export { GenericIconCollection };

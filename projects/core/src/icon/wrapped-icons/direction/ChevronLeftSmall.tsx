@@ -1,8 +1,8 @@
 import React from "react";
-import { StyledSvg } from "../Icon.styled";
-import { StyledSvgProps } from "../Icon.types";
+import { StyledSvg } from "../../Icon.styled";
+import { StyledSvgProps } from "../../Icon.types";
 
-export const XXXXXX = ({
+export const ChevronLeftSmall = ({
   size,
   color,
   pointerEvents,
@@ -18,6 +18,14 @@ export const XXXXXX = ({
       fill={"none"}
       width={size}
       {...rest}
-    ></StyledSvg>
+    >
+      <path
+        d="M14 6L8 12L14 18"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </StyledSvg>
   );
 };

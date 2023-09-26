@@ -1,8 +1,8 @@
 import React from "react";
-import { StyledSvg } from "../Icon.styled";
-import { StyledSvgProps } from "../Icon.types";
+import { StyledSvg } from "../../Icon.styled";
+import { StyledSvgProps } from "../../Icon.types";
 
-export const XXXXXX = ({
+export const Check = ({
   size,
   color,
   pointerEvents,
@@ -15,9 +15,17 @@ export const XXXXXX = ({
       xmlns="http://www.w3.org/2000/svg"
       pointerEvents={events}
       height={size}
-      fill={"none"}
       width={size}
+      fill={"none"}
       {...rest}
-    ></StyledSvg>
+    >
+      <path
+        d="M4 12L10 18L20 6"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </StyledSvg>
   );
 };
