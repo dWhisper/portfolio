@@ -90,6 +90,9 @@ export type TechnologyIconName =
   | "Bluetooth"
   | "BatteryEmpty"
   | "BatteryCharging"
+  | "BatteryFull"
+  | "BatteryLow"
+  | "BatteryMedium"
   | "AugmentedReality"
   | "SCSS"
   | "HTML"
@@ -161,4 +164,7 @@ export type GenericIconName =
   | "Book"
   | "BookOpen"
   | "Briefcase"
-  | "Bug";
+  | "Bug"
+  | "Cake"
+  | "Calculator"
+  | "Calendar";

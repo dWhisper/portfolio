@@ -17,6 +17,9 @@ export const technologyIconNames: TechnologyIconName[] = [
   "AugmentedReality",
   "BatteryCharging",
   "BatteryEmpty",
+  "BatteryFull",
+  "BatteryLow",
+  "BatteryMedium",
   "Bootstrap",
   "Bluetooth",
   "Angular",
@@ -57,6 +60,9 @@ export const genericIconNames: GenericIconName[] = [
   "BookOpen",
   "Briefcase",
   "Bug",
+  "Cake",
+  "Calculator",
+  "Calendar",
 ];
 
 export const mediaIconNames: MediaIconName[] = [

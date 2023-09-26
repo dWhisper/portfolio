@@ -10,6 +10,9 @@ import { Book } from "../wrapped-icons/generic/Book";
 import { BookOpen } from "../wrapped-icons/generic/BookOpen";
 import { Briefcase } from "../wrapped-icons/generic/Briefcase";
 import { Bug } from "../wrapped-icons/generic/Bug";
+import { Cake } from "../wrapped-icons/generic/Cake";
+import { Calculator } from "../wrapped-icons/generic/Calculator";
+import { Calendar } from "../wrapped-icons/generic/Calendar";
 
 const GenericIconCollection = new Map();
 
@@ -27,5 +30,8 @@ GenericIconCollection.set("Book", Book);
 GenericIconCollection.set("BookOpen", BookOpen);
 GenericIconCollection.set("Briefcase", Briefcase);
 GenericIconCollection.set("Bug", Bug);
+GenericIconCollection.set("Cake", Cake);
+GenericIconCollection.set("Calculator", Calculator);
+GenericIconCollection.set("Calendar", Calendar);
 
 export { GenericIconCollection };

@@ -14,6 +14,9 @@ import { AugmentedReality } from "../wrapped-icons/technology/AugmentedReality";
 import { BatteryCharging } from "../wrapped-icons/technology/BatteryCharging";
 import { BatteryEmpty } from "../wrapped-icons/technology/BatteryEmpty";
 import { Bluetooth } from "../wrapped-icons/technology/Bluetooth";
+import { BatteryFull } from "../wrapped-icons/technology/BatteryFull";
+import { BatteryLow } from "../wrapped-icons/technology/BatteryLow";
+import { BatteryMedium } from "../wrapped-icons/technology/BatteryMedium";
 
 const TechnologyIconCollection = new Map();
 
@@ -25,6 +28,9 @@ TechnologyIconCollection.set("Angular", AngularFill);
 TechnologyIconCollection.set("AugmentedReality", AugmentedReality);
 TechnologyIconCollection.set("BatteryCharging", BatteryCharging);
 TechnologyIconCollection.set("BatteryEmpty", BatteryEmpty);
+TechnologyIconCollection.set("BatteryFull", BatteryFull);
+TechnologyIconCollection.set("BatteryLow", BatteryLow);
+TechnologyIconCollection.set("BatteryMedium", BatteryMedium);
 TechnologyIconCollection.set("Bluetooth", Bluetooth);
 TechnologyIconCollection.set("Bootstrap", BootstrapFill);
 TechnologyIconCollection.set("Django", DjangoFill);
