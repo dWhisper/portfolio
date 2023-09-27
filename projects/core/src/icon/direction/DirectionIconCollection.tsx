@@ -35,6 +35,7 @@ import { ChevronVertical } from "../wrapped-icons/direction/ChevronVertical";
 import { ChevronCircleDown } from "../wrapped-icons/direction/ChevronCircleDown";
 import { ChevronCircleDownFilled } from "../wrapped-icons/direction/ChevronCircleDownFilled";
 import { ChevronCircleRight } from "../wrapped-icons/direction/ChevronCircleRight";
+import { Descending } from "../wrapped-icons/direction/Descending";
 
 const DirectionIconCollection = new Map();
 
@@ -79,5 +80,6 @@ DirectionIconCollection.set("ChevronRightSmall", ChevronRightSmall);
 DirectionIconCollection.set("ChevronUp", ChevronUp);
 DirectionIconCollection.set("ChevronUpSmall", ChevronUpSmall);
 DirectionIconCollection.set("ChevronVertical", ChevronVertical);
+DirectionIconCollection.set("Descending", Descending);
 
 export { DirectionIconCollection };

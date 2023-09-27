@@ -9,6 +9,7 @@ import { ArrowDown } from "../wrapped-icons/navigation/ArrowDown";
 import { ArrowDownLeft } from "../wrapped-icons/navigation/ArrowDownLeft";
 import { ArrowDownRight } from "../wrapped-icons/navigation/ArrowDownRight";
 import { ArrowDownThick } from "../wrapped-icons/navigation/ArrowDownThick";
+import { ArrowEnlarge } from "../wrapped-icons/navigation/ArrowEnlarge";
 import { ArrowUpThick } from "../wrapped-icons/navigation/ArrowUpThick";
 import { ArrowUpRight } from "../wrapped-icons/navigation/ArrowUpRight";
 import { ArrowForwardThick } from "../wrapped-icons/navigation/ArrowForwardThick";
@@ -24,6 +25,9 @@ import { ArrowRightLeft } from "../wrapped-icons/navigation/ArrowRightLeft";
 import { ArrowRight } from "../wrapped-icons/navigation/ArrowRight";
 import { ArrowRepeat } from "../wrapped-icons/navigation/ArrowRepeat";
 import { Box } from "../wrapped-icons/shapes/Box";
+import { DotGrid } from "../wrapped-icons/navigation/DotGrid";
+import { DragHorizontal } from "../wrapped-icons/navigation/DragHorizontal";
+import { DragVertical } from "../wrapped-icons/navigation/DragVertical";
 
 const NavigationIconCollection = new Map();
 // Error State Box
@@ -39,6 +43,7 @@ NavigationIconCollection.set("ArrowDown", ArrowDown);
 NavigationIconCollection.set("ArrowDownLeft", ArrowDownLeft);
 NavigationIconCollection.set("ArrowDownRight", ArrowDownRight);
 NavigationIconCollection.set("ArrowDownThick", ArrowDownThick);
+NavigationIconCollection.set("ArrowEnlarge", ArrowEnlarge);
 NavigationIconCollection.set("ArrowForward", ArrowForward);
 NavigationIconCollection.set("ArrowForwardThick", ArrowForwardThick);
 NavigationIconCollection.set("ArrowForwardThickFilled", ArrowForwardThickFill);
@@ -54,5 +59,8 @@ NavigationIconCollection.set("ArrowUp", ArrowUp);
 NavigationIconCollection.set("ArrowUpLeft", ArrowUpLeft);
 NavigationIconCollection.set("ArrowUpRight", ArrowUpRight);
 NavigationIconCollection.set("ArrowUpThick", ArrowUpThick);
+NavigationIconCollection.set("DotGrid", DotGrid);
+NavigationIconCollection.set("DragHorizontal", DragHorizontal);
+NavigationIconCollection.set("DragVertical", DragVertical);
 
 export { NavigationIconCollection };
