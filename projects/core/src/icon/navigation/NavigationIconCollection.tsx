@@ -28,6 +28,11 @@ import { Box } from "../wrapped-icons/shapes/Box";
 import { DotGrid } from "../wrapped-icons/navigation/DotGrid";
 import { DragHorizontal } from "../wrapped-icons/navigation/DragHorizontal";
 import { DragVertical } from "../wrapped-icons/navigation/DragVertical";
+import { ArrowHeight } from "../wrapped-icons/navigation/ArrowHeight";
+import { ForkLeft } from "../wrapped-icons/navigation/ForkLeft";
+import { ForkRight } from "../wrapped-icons/navigation/ForkRight";
+import { FullScreen } from "../wrapped-icons/navigation/FullScreen";
+import { Grid } from "../wrapped-icons/navigation/Grid";
 
 const NavigationIconCollection = new Map();
 // Error State Box
@@ -62,5 +67,10 @@ NavigationIconCollection.set("ArrowUpThick", ArrowUpThick);
 NavigationIconCollection.set("DotGrid", DotGrid);
 NavigationIconCollection.set("DragHorizontal", DragHorizontal);
 NavigationIconCollection.set("DragVertical", DragVertical);
+NavigationIconCollection.set("ArrowHeight", ArrowHeight);
+NavigationIconCollection.set("ForkLeft", ForkLeft);
+NavigationIconCollection.set("ForkRight", ForkRight);
+NavigationIconCollection.set("FullScreen", FullScreen);
+NavigationIconCollection.set("Grid", Grid);
 
 export { NavigationIconCollection };

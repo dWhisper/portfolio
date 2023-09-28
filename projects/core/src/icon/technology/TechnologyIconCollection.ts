@@ -29,6 +29,12 @@ import { DownloadAlt } from "../wrapped-icons/technology/DownloadAlt";
 import { DownloadIcon } from "../wrapped-icons/technology/Download";
 import { Monitor } from "../wrapped-icons/technology/Monitor";
 import { Upload } from "../wrapped-icons/technology/Upload";
+import { File } from "../wrapped-icons/technology/File";
+import { Filter } from "../wrapped-icons/technology/Filter";
+import { Folder } from "../wrapped-icons/technology/Folder";
+import { FolderAdd } from "../wrapped-icons/technology/FolderAdd";
+import { GraphQL } from "../wrapped-icons/technology/GraphQL";
+import { GameController } from "../wrapped-icons/technology/GameController";
 
 const TechnologyIconCollection = new Map();
 
@@ -57,7 +63,13 @@ TechnologyIconCollection.set("Devices", Devices);
 TechnologyIconCollection.set("Django", DjangoFill);
 TechnologyIconCollection.set("Download", DownloadIcon);
 TechnologyIconCollection.set("DownloadAlt", DownloadAlt);
+TechnologyIconCollection.set("File", File);
+TechnologyIconCollection.set("Filter", Filter);
+TechnologyIconCollection.set("Folder", Folder);
+TechnologyIconCollection.set("FolderAdd", FolderAdd);
+TechnologyIconCollection.set("GameController", GameController);
 TechnologyIconCollection.set("Github", GithubFill);
+TechnologyIconCollection.set("GraphQL", GraphQL);
 TechnologyIconCollection.set("Monitor", Monitor);
 TechnologyIconCollection.set("PHP", PHPFill);
 TechnologyIconCollection.set("RSS", RssFill);

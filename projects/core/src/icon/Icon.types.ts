@@ -24,6 +24,9 @@ export type BrandIconName =
   | "Dropbox"
   | "Facebook"
   | "Figma"
+  | "Gatsby"
+  | "Google"
+  | "GoogleCircle"
   | "Instagram"
   | "Twitter"
   | "TikTok"
@@ -80,7 +83,8 @@ export type EcomIconName =
   | "Cart"
   | "Coin"
   | "CreditCard"
-  | "CreditCardAlt";
+  | "CreditCardAlt"
+  | "Gift";
 
 export type MessagingIconName =
   | "ChatAdd"
@@ -145,14 +149,25 @@ export type GenericIconName =
   | "FaceVeryHappy"
   | "FaceVerySad"
   | "FaceWink"
+  | "Fire"
+  | "Flag"
+  | "Flashlight"
+  | "Gear"
+  | "Glasses"
+  | "Hammer"
+  | "Hand"
+  | "Hashtag"
+  | "History"
+  | "Home"
+  | "HomeAlt"
   | "Scissors"
   | "Tooth";
 
 export type MediaIconName =
-  | "Play"
   | "AirplayAudio"
   | "AirplayVideo"
-  | "Airpods";
+  | "Airpods"
+  | "Headphones";
 
 export type NavigationIconName =
   | "ArrowBack"
@@ -169,6 +184,7 @@ export type NavigationIconName =
   | "ArrowForward"
   | "ArrowForwardThickFilled"
   | "ArrowForwardThick"
+  | "ArrowHeight"
   | "ArrowLeft"
   | "ArrowLeftThick"
   | "ArrowRepeat"
@@ -183,16 +199,27 @@ export type NavigationIconName =
   | "ArrowUpThick"
   | "DotGrid"
   | "DragHorizontal"
-  | "DragVertical";
+  | "DragVertical"
+  | "ForkLeft"
+  | "ForkRight"
+  | "FullScreen"
+  | "Grid";
 
 export type ShapeIconName =
   | "Box"
+  | "BoxFilled"
   | "Circle"
   | "CircleFilled"
   | "Cross"
   | "Diamond"
   | "EqualCircle"
   | "EqualCircleFilled"
+  | "Heart"
+  | "HeartFilled"
+  | "Heptagon"
+  | "HeptagonFilled"
+  | "Hexagon"
+  | "HexagonFilled"
   | "MinusCircle"
   | "MinusCircleFilled"
   | "PlusCircle"
@@ -220,7 +247,13 @@ export type TechnologyIconName =
   | "Django"
   | "Download"
   | "DownloadAlt"
+  | "File"
+  | "Filter"
+  | "Folder"
+  | "FolderAdd"
+  | "GameController"
   | "Github"
+  | "GraphQL"
   | "Monitor"
   | "PHP"
   | "RSS"
@@ -230,7 +263,12 @@ export type TechnologyIconName =
   | "Vue"
   | "Yarn";
 
-export type TransportationIconName = "Bicycle" | "Boat" | "MapPin";
+export type TransportationIconName =
+  | "Bicycle"
+  | "Boat"
+  | "Globe"
+  | "Health"
+  | "MapPin";
 
 export interface TransportationIconProps extends IconProps {
   name: TransportationIconName;

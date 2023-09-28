@@ -6,6 +6,7 @@ import { Cart } from "../wrapped-icons/ecom/Cart";
 import { Coin } from "../wrapped-icons/ecom/Coin";
 import { CreditCard } from "../wrapped-icons/ecom/CreditCard";
 import { CreditCardAlt } from "../wrapped-icons/ecom/CreditCardAlt";
+import { Gift } from "../wrapped-icons/ecom/Gift";
 
 const EcomIconCollection = new Map();
 
@@ -18,5 +19,6 @@ EcomIconCollection.set("Cart", Cart);
 EcomIconCollection.set("Coin", Coin);
 EcomIconCollection.set("CreditCard", CreditCard);
 EcomIconCollection.set("CreditCardAlt", CreditCardAlt);
+EcomIconCollection.set("Gift", Gift);
 
 export { EcomIconCollection };

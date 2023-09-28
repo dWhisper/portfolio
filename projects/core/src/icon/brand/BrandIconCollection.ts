@@ -14,6 +14,9 @@ import { Discord } from "../wrapped-icons/brand/Discord";
 import { Dribble } from "../wrapped-icons/brand/Dribble";
 import { Dropbox } from "../wrapped-icons/brand/Dropbox";
 import { Figma } from "../wrapped-icons/brand/Figma";
+import { Gatsby } from "../wrapped-icons/brand/Gatsby";
+import { Google } from "../wrapped-icons/brand/Google";
+import { GoogleCircle } from "../wrapped-icons/brand/GoogleCircle";
 
 const BrandIconCollection = new Map();
 
@@ -25,6 +28,9 @@ BrandIconCollection.set("Dribble", Dribble);
 BrandIconCollection.set("Dropbox", Dropbox);
 BrandIconCollection.set("Facebook", Facebook);
 BrandIconCollection.set("Figma", Figma);
+BrandIconCollection.set("Gatsby", Gatsby);
+BrandIconCollection.set("Google", Google);
+BrandIconCollection.set("GoogleCircle", GoogleCircle);
 BrandIconCollection.set("Twitter", Twitter);
 BrandIconCollection.set("Instagram", Instagram);
 BrandIconCollection.set("TikTok", TikTokFill);

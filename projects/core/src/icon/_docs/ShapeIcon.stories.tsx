@@ -4,7 +4,7 @@ import { shapeIconNames } from "./icon-args";
 import { ShapeIcon } from "../shapes";
 
 const meta: Meta<typeof ShapeIcon> = {
-  title: "Components/Icon/Media",
+  title: "Components/Icon/Shapes",
   component: ShapeIcon,
   tags: ["icons"],
   argTypes: {
