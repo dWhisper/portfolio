@@ -1,21 +1,24 @@
 import { Box } from "../wrapped-icons/shapes/Box";
+import { BoxFilled } from "../wrapped-icons/shapes/BoxFilled";
 import { Circle } from "../wrapped-icons/shapes/Circle";
 import { CircleFilled } from "../wrapped-icons/shapes/CircleFilled";
-import { MinusCircle } from "../wrapped-icons/shapes/MinusCircle";
-import { MinusCircleFilled } from "../wrapped-icons/shapes/MinusCircleFilled";
-import { PlusCircle } from "../wrapped-icons/shapes/PlusCircle";
-import { PlusCircleFilled } from "../wrapped-icons/shapes/PlusCircleFilled";
 import { Cross } from "../wrapped-icons/shapes/Cross";
 import { Diamond } from "../wrapped-icons/shapes/Diamond";
 import { EqualCircle } from "../wrapped-icons/shapes/EqualCircle";
 import { EqualCircleFilled } from "../wrapped-icons/shapes/EqualCircleFilled";
-import { BoxFilled } from "../wrapped-icons/shapes/BoxFilled";
+import { Heart } from "../wrapped-icons/shapes/Heart";
+import { HeartFilled } from "../wrapped-icons/shapes/HeartFilled";
 import { Heptagon } from "../wrapped-icons/shapes/Heptagon";
 import { HeptagonFilled } from "../wrapped-icons/shapes/HeptagonFilled";
 import { Hexagon } from "../wrapped-icons/shapes/Hexagon";
 import { HexagonFilled } from "../wrapped-icons/shapes/HexagonFilled";
-import { Heart } from "../wrapped-icons/shapes/Heart";
-import { HeartFilled } from "../wrapped-icons/shapes/HeartFilled";
+import { MinusIcon } from "../wrapped-icons/shapes/Minus";
+import { MinusCircle } from "../wrapped-icons/shapes/MinusCircle";
+import { MinusCircleFilled } from "../wrapped-icons/shapes/MinusCircleFilled";
+import { Moon } from "../wrapped-icons/shapes/Moon";
+import { MoonFilled } from "../wrapped-icons/shapes/MoonFilled";
+import { PlusCircle } from "../wrapped-icons/shapes/PlusCircle";
+import { PlusCircleFilled } from "../wrapped-icons/shapes/PlusCircleFilled";
 
 const ShapeIconCollection = new Map();
 
@@ -34,8 +37,11 @@ ShapeIconCollection.set("Heptagon", Heptagon);
 ShapeIconCollection.set("HeptagonFilled", HeptagonFilled);
 ShapeIconCollection.set("Hexagon", Hexagon);
 ShapeIconCollection.set("HexagonFilled", HexagonFilled);
+ShapeIconCollection.set("Minus", MinusIcon);
 ShapeIconCollection.set("MinusCircle", MinusCircle);
 ShapeIconCollection.set("MinusCircleFilled", MinusCircleFilled);
+ShapeIconCollection.set("Moon", Moon);
+ShapeIconCollection.set("MoonFilled", MoonFilled);
 ShapeIconCollection.set("PlusCircle", PlusCircle);
 ShapeIconCollection.set("PlusCircleFilled", PlusCircleFilled);
 

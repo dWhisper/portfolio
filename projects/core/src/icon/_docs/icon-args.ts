@@ -1,14 +1,14 @@
 import {
   BrandIconName,
+  DirectionIconName,
+  EcomIconName,
   GenericIconName,
-  NavigationIconName,
-  TechnologyIconName,
   MediaIconName,
   MessagingIconName,
-  EcomIconName,
-  DirectionIconName,
-  TransportationIconName,
+  NavigationIconName,
   ShapeIconName,
+  TechnologyIconName,
+  TransportationIconName,
 } from "@nmportfolio/core";
 
 export const brandIconNames: BrandIconName[] = [
@@ -19,6 +19,10 @@ export const brandIconNames: BrandIconName[] = [
   "Facebook",
   "Figma",
   "Instagram",
+  "LinkedIn",
+  "LinkedInBox",
+  "Mastodon",
+  "Medium",
   "Twitter",
   "TikTok",
   "Twitch",
@@ -77,6 +81,7 @@ export const ecomIconNames: EcomIconName[] = [
   "Coin",
   "CreditCard",
   "CreditCardAlt",
+  "Money",
 ];
 
 export const genericIconNames: GenericIconName[] = [
@@ -141,6 +146,19 @@ export const genericIconNames: GenericIconName[] = [
   "History",
   "Home",
   "HomeAlt",
+  "Inbox",
+  "Infinity",
+  "InfoCircle",
+  "InfoCircleFilled",
+  "Jar",
+  "Key",
+  "Leaf",
+  "LightBulb",
+  "LinkChain",
+  "LinkOff",
+  "LinkOn",
+  "LockOff",
+  "LockOn",
   "Scissors",
   "Tooth",
 ];
@@ -150,9 +168,16 @@ export const mediaIconNames: MediaIconName[] = [
   "AirplayVideo",
   "Airpods",
   "Headphones",
+  "Microphone",
+  "MiniPlayer",
+  "MusicDisc",
+  "MusicNote",
+  "MusicNotes",
+  "MusicNotesSquare",
 ];
 
 export const messagingIconNames: MessagingIconName[] = [
+  "AtSign",
   "ChatAdd",
   "ChatApprove",
   "ChatBubble",
@@ -161,6 +186,7 @@ export const messagingIconNames: MessagingIconName[] = [
   "ChatQuestion",
   "ChatReject",
   "ChatRemove",
+  "Language",
 ];
 
 export const navigationIconNames: NavigationIconName[] = [
@@ -192,12 +218,15 @@ export const navigationIconNames: NavigationIconName[] = [
   "ArrowUpRight",
   "ArrowUpThick",
   "DotGrid",
+  "DotsHorizontal",
+  "DotsVertical",
   "DragHorizontal",
   "DragVertical",
   "ForkLeft",
   "ForkRight",
   "FullScreen",
   "Grid",
+  "LinkOut",
 ];
 
 export const shapeIconNames: ShapeIconName[] = [
@@ -215,8 +244,11 @@ export const shapeIconNames: ShapeIconName[] = [
   "HeptagonFilled",
   "Hexagon",
   "HexagonFilled",
+  "Minus",
   "MinusCircle",
   "MinusCircleFilled",
+  "Moon",
+  "MoonFilled",
   "PlusCircle",
   "PlusCircleFilled",
 ];
@@ -251,6 +283,13 @@ export const technologyIconNames: TechnologyIconName[] = [
   "GameController",
   "Github",
   "GraphQL",
+  "HTML",
+  "Image",
+  "JavaScript",
+  "JQuery",
+  "KeyCap",
+  "Laptop",
+  "MobileDevice",
   "Monitor",
   "PHP",
   "RSS",
@@ -266,5 +305,8 @@ export const transportationIconName: TransportationIconName[] = [
   "Boat",
   "Globe",
   "Health",
+  "Lifesaver",
+  "Location",
+  "Map",
   "MapPin",
 ];

@@ -28,6 +28,10 @@ export type BrandIconName =
   | "Google"
   | "GoogleCircle"
   | "Instagram"
+  | "LinkedIn"
+  | "LinkedInBox"
+  | "Mastodon"
+  | "Medium"
   | "Twitter"
   | "TikTok"
   | "Twitch"
@@ -84,17 +88,8 @@ export type EcomIconName =
   | "Coin"
   | "CreditCard"
   | "CreditCardAlt"
-  | "Gift";
-
-export type MessagingIconName =
-  | "ChatAdd"
-  | "ChatApprove"
-  | "ChatBubble"
-  | "ChatDots"
-  | "ChatError"
-  | "ChatQuestion"
-  | "ChatReject"
-  | "ChatRemove";
+  | "Gift"
+  | "Money";
 
 export type GenericIconName =
   | "Air"
@@ -160,6 +155,19 @@ export type GenericIconName =
   | "History"
   | "Home"
   | "HomeAlt"
+  | "Inbox"
+  | "Infinity"
+  | "InfoCircle"
+  | "InfoCircleFilled"
+  | "Jar"
+  | "Key"
+  | "Leaf"
+  | "LightBulb"
+  | "LinkChain"
+  | "LinkOff"
+  | "LinkOn"
+  | "LockOff"
+  | "LockOn"
   | "Scissors"
   | "Tooth";
 
@@ -167,7 +175,25 @@ export type MediaIconName =
   | "AirplayAudio"
   | "AirplayVideo"
   | "Airpods"
-  | "Headphones";
+  | "Headphones"
+  | "Microphone"
+  | "MiniPlayer"
+  | "MusicDisc"
+  | "MusicNote"
+  | "MusicNotes"
+  | "MusicNotesSquare";
+
+export type MessagingIconName =
+  | "AtSign"
+  | "ChatAdd"
+  | "ChatApprove"
+  | "ChatBubble"
+  | "ChatDots"
+  | "ChatError"
+  | "ChatQuestion"
+  | "ChatReject"
+  | "ChatRemove"
+  | "Language";
 
 export type NavigationIconName =
   | "ArrowBack"
@@ -198,12 +224,15 @@ export type NavigationIconName =
   | "ArrowUpRight"
   | "ArrowUpThick"
   | "DotGrid"
+  | "DotsHorizontal"
+  | "DotsVertical"
   | "DragHorizontal"
   | "DragVertical"
   | "ForkLeft"
   | "ForkRight"
   | "FullScreen"
-  | "Grid";
+  | "Grid"
+  | "LinkOut";
 
 export type ShapeIconName =
   | "Box"
@@ -220,8 +249,11 @@ export type ShapeIconName =
   | "HeptagonFilled"
   | "Hexagon"
   | "HexagonFilled"
+  | "Minus"
   | "MinusCircle"
   | "MinusCircleFilled"
+  | "Moon"
+  | "MoonFilled"
   | "PlusCircle"
   | "PlusCircleFilled";
 
@@ -254,6 +286,13 @@ export type TechnologyIconName =
   | "GameController"
   | "Github"
   | "GraphQL"
+  | "HTML"
+  | "Image"
+  | "JavaScript"
+  | "JQuery"
+  | "KeyCap"
+  | "Laptop"
+  | "MobileDevice"
   | "Monitor"
   | "PHP"
   | "RSS"
@@ -268,6 +307,9 @@ export type TransportationIconName =
   | "Boat"
   | "Globe"
   | "Health"
+  | "Lifesaver"
+  | "Location"
+  | "Map"
   | "MapPin";
 
 export interface TransportationIconProps extends IconProps {

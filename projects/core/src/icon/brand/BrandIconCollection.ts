@@ -17,6 +17,10 @@ import { Figma } from "../wrapped-icons/brand/Figma";
 import { Gatsby } from "../wrapped-icons/brand/Gatsby";
 import { Google } from "../wrapped-icons/brand/Google";
 import { GoogleCircle } from "../wrapped-icons/brand/GoogleCircle";
+import { LinkedIn } from "../wrapped-icons/brand/LinkedIn";
+import { LinkedInBox } from "../wrapped-icons/brand/LinkedInBox";
+import { Mastodon } from "../wrapped-icons/brand/Mastodon";
+import { Medium } from "../wrapped-icons/brand/Medium";
 
 const BrandIconCollection = new Map();
 
@@ -31,8 +35,12 @@ BrandIconCollection.set("Figma", Figma);
 BrandIconCollection.set("Gatsby", Gatsby);
 BrandIconCollection.set("Google", Google);
 BrandIconCollection.set("GoogleCircle", GoogleCircle);
-BrandIconCollection.set("Twitter", Twitter);
 BrandIconCollection.set("Instagram", Instagram);
+BrandIconCollection.set("LinkedIn", LinkedIn);
+BrandIconCollection.set("LinkedInBox", LinkedInBox);
+BrandIconCollection.set("Mastodon", Mastodon);
+BrandIconCollection.set("Medium", Medium);
+BrandIconCollection.set("Twitter", Twitter);
 BrandIconCollection.set("TikTok", TikTokFill);
 BrandIconCollection.set("Twitch", TwitchFill);
 BrandIconCollection.set("Unsplash", UnsplashFill);
