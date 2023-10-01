@@ -9,6 +9,8 @@ import { ChatQuestion } from "../wrapped-icons/messaging/ChatQuestion";
 import { ChatReject } from "../wrapped-icons/messaging/ChatReject";
 import { ChatRemove } from "../wrapped-icons/messaging/ChatRemove";
 import { Language } from "../wrapped-icons/messaging/Language";
+import { Newspaper } from "../wrapped-icons/messaging/Newspaper";
+import { Phone } from "../wrapped-icons/messaging/Phone";
 import { Box } from "../wrapped-icons/shapes/Box";
 
 const MessagingIconCollection = new Map();
@@ -26,5 +28,7 @@ MessagingIconCollection.set("ChatQuestion", ChatQuestion);
 MessagingIconCollection.set("ChatReject", ChatReject);
 MessagingIconCollection.set("ChatRemove", ChatRemove);
 MessagingIconCollection.set("Language", Language);
+MessagingIconCollection.set("Newspaper", Newspaper);
+MessagingIconCollection.set("Phone", Phone);
 
 export { MessagingIconCollection };

@@ -7,6 +7,8 @@ import { Lifesaver } from "../wrapped-icons/transportation/Lifesaver";
 import { Location } from "../wrapped-icons/transportation/Location";
 import { MapIcon } from "../wrapped-icons/transportation/MapIcon";
 import { MapPin } from "../wrapped-icons/transportation/MapPin";
+import { Plane } from "../wrapped-icons/transportation/Plane";
+import { PlaneFilled } from "../wrapped-icons/transportation/PlaneFilled";
 
 const TransportationIconCollection = new Map();
 
@@ -20,5 +22,7 @@ TransportationIconCollection.set("Lifesaver", Lifesaver);
 TransportationIconCollection.set("Location", Location);
 TransportationIconCollection.set("Map", MapIcon);
 TransportationIconCollection.set("MapPin", MapPin);
+TransportationIconCollection.set("Plane", Plane);
+TransportationIconCollection.set("PlaneFilled", PlaneFilled);
 
 export { TransportationIconCollection };

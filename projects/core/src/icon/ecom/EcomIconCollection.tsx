@@ -1,4 +1,3 @@
-import { Box } from "../wrapped-icons/shapes/Box";
 import { Bank } from "../wrapped-icons/ecom/Bank";
 import { Basket } from "../wrapped-icons/ecom/Basket";
 import { Bitcoin } from "../wrapped-icons/ecom/Bitcoin";
@@ -8,6 +7,8 @@ import { CreditCard } from "../wrapped-icons/ecom/CreditCard";
 import { CreditCardAlt } from "../wrapped-icons/ecom/CreditCardAlt";
 import { Gift } from "../wrapped-icons/ecom/Gift";
 import { Money } from "../wrapped-icons/ecom/Money";
+import { PriceCut } from "../wrapped-icons/ecom/PriceCut";
+import { Box } from "../wrapped-icons/shapes/Box";
 
 const EcomIconCollection = new Map();
 
@@ -22,5 +23,6 @@ EcomIconCollection.set("CreditCard", CreditCard);
 EcomIconCollection.set("CreditCardAlt", CreditCardAlt);
 EcomIconCollection.set("Gift", Gift);
 EcomIconCollection.set("Money", Money);
+EcomIconCollection.set("PriceCut", PriceCut);
 
 export { EcomIconCollection };

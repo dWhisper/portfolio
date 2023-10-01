@@ -35,6 +35,7 @@ import { ForkRight } from "../wrapped-icons/navigation/ForkRight";
 import { FullScreen } from "../wrapped-icons/navigation/FullScreen";
 import { Grid } from "../wrapped-icons/navigation/Grid";
 import { LinkOut } from "../wrapped-icons/navigation/LinkOut";
+import { NormalScreen } from "../wrapped-icons/navigation/NormalScreen";
 import { Box } from "../wrapped-icons/shapes/Box";
 
 const NavigationIconCollection = new Map();
@@ -78,5 +79,6 @@ NavigationIconCollection.set("ForkRight", ForkRight);
 NavigationIconCollection.set("FullScreen", FullScreen);
 NavigationIconCollection.set("Grid", Grid);
 NavigationIconCollection.set("LinkOut", LinkOut);
+NavigationIconCollection.set("NormalScreen", NormalScreen);
 
 export { NavigationIconCollection };

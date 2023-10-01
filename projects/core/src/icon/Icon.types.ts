@@ -32,6 +32,7 @@ export type BrandIconName =
   | "LinkedInBox"
   | "Mastodon"
   | "Medium"
+  | "Pinterest"
   | "Twitter"
   | "TikTok"
   | "Twitch"
@@ -78,7 +79,20 @@ export type DirectionIconName =
   | "ChevronUp"
   | "ChevronUpSmall"
   | "ChevronVertical"
-  | "Descending";
+  | "Descending"
+  | "PanelBottom"
+  | "PanelLeft"
+  | "PanelRight"
+  | "PanelSplit"
+  | "PanelSplitColumn"
+  | "PanelSplitRow"
+  | "PanelTop"
+  | "PointerDownFilled"
+  | "PointerHand"
+  | "PointerLeftFilled"
+  | "PointerRightFilled"
+  | "PointerUp"
+  | "PointerUpFilled";
 
 export type EcomIconName =
   | "Bank"
@@ -89,7 +103,8 @@ export type EcomIconName =
   | "CreditCard"
   | "CreditCardAlt"
   | "Gift"
-  | "Money";
+  | "Money"
+  | "PriceCut";
 
 export type GenericIconName =
   | "Air"
@@ -133,6 +148,7 @@ export type GenericIconName =
   | "Draft"
   | "Edit"
   | "Envelope"
+  | "EnvelopeOpen"
   | "ErrorCircle"
   | "ErrorCircleFilled"
   | "EyeClosed"
@@ -168,6 +184,21 @@ export type GenericIconName =
   | "LinkOn"
   | "LockOff"
   | "LockOn"
+  | "Paper"
+  | "PaperAirplane"
+  | "Pencil"
+  | "PeopleGroup"
+  | "PeopleMultiple"
+  | "Percentage"
+  | "Person"
+  | "PersonAdd"
+  | "PersonCheck"
+  | "PersonRemove"
+  | "Pin"
+  | "Planet"
+  | "Plant"
+  | "QuestionCircle"
+  | "QuestionCircleFilled"
   | "Scissors"
   | "Tooth";
 
@@ -181,7 +212,9 @@ export type MediaIconName =
   | "MusicDisc"
   | "MusicNote"
   | "MusicNotes"
-  | "MusicNotesSquare";
+  | "MusicNotesSquare"
+  | "Pause"
+  | "Play";
 
 export type MessagingIconName =
   | "AtSign"
@@ -193,7 +226,9 @@ export type MessagingIconName =
   | "ChatQuestion"
   | "ChatReject"
   | "ChatRemove"
-  | "Language";
+  | "Language"
+  | "Newspaper"
+  | "Phone";
 
 export type NavigationIconName =
   | "ArrowBack"
@@ -232,7 +267,8 @@ export type NavigationIconName =
   | "ForkRight"
   | "FullScreen"
   | "Grid"
-  | "LinkOut";
+  | "LinkOut"
+  | "NormalScreen";
 
 export type ShapeIconName =
   | "Box"
@@ -254,8 +290,16 @@ export type ShapeIconName =
   | "MinusCircleFilled"
   | "Moon"
   | "MoonFilled"
+  | "Octagon"
+  | "OctagonFilled"
+  | "Oval"
+  | "Parallelogram"
+  | "ParallelogramFilled"
+  | "Plus"
   | "PlusCircle"
-  | "PlusCircleFilled";
+  | "PlusCircleFilled"
+  | "Pentagon"
+  | "PentagonFilled";
 
 export type TechnologyIconName =
   | "Android"
@@ -294,7 +338,14 @@ export type TechnologyIconName =
   | "Laptop"
   | "MobileDevice"
   | "Monitor"
+  | "Network"
+  | "NextJS"
+  | "NodeJS"
+  | "NPM"
+  | "Octocat"
   | "PHP"
+  | "Postgres"
+  | "Python"
   | "RSS"
   | "TypeScript"
   | "Upload"
@@ -310,7 +361,9 @@ export type TransportationIconName =
   | "Lifesaver"
   | "Location"
   | "Map"
-  | "MapPin";
+  | "MapPin"
+  | "Plane"
+  | "PlaneFilled";
 
 export interface TransportationIconProps extends IconProps {
   name: TransportationIconName;

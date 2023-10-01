@@ -23,6 +23,7 @@ export const brandIconNames: BrandIconName[] = [
   "LinkedInBox",
   "Mastodon",
   "Medium",
+  "Pinterest",
   "Twitter",
   "TikTok",
   "Twitch",
@@ -71,6 +72,19 @@ export const directionIconNames: DirectionIconName[] = [
   "ChevronUpSmall",
   "ChevronVertical",
   "Descending",
+  "PanelBottom",
+  "PanelLeft",
+  "PanelRight",
+  "PanelSplit",
+  "PanelSplitColumn",
+  "PanelSplitRow",
+  "PanelTop",
+  "PointerDownFilled",
+  "PointerHand",
+  "PointerLeftFilled",
+  "PointerRightFilled",
+  "PointerUp",
+  "PointerUpFilled",
 ];
 
 export const ecomIconNames: EcomIconName[] = [
@@ -82,6 +96,7 @@ export const ecomIconNames: EcomIconName[] = [
   "CreditCard",
   "CreditCardAlt",
   "Money",
+  "PriceCut",
 ];
 
 export const genericIconNames: GenericIconName[] = [
@@ -124,6 +139,7 @@ export const genericIconNames: GenericIconName[] = [
   "Draft",
   "Edit",
   "Envelope",
+  "EnvelopeOpen",
   "ErrorCircle",
   "ErrorCircleFilled",
   "EyeClosed",
@@ -159,6 +175,21 @@ export const genericIconNames: GenericIconName[] = [
   "LinkOn",
   "LockOff",
   "LockOn",
+  "Paper",
+  "PaperAirplane",
+  "Pencil",
+  "PeopleGroup",
+  "PeopleMultiple",
+  "Percentage",
+  "Person",
+  "PersonAdd",
+  "PersonCheck",
+  "PersonRemove",
+  "Pin",
+  "Planet",
+  "Plant",
+  "QuestionCircle",
+  "QuestionCircleFilled",
   "Scissors",
   "Tooth",
 ];
@@ -174,6 +205,8 @@ export const mediaIconNames: MediaIconName[] = [
   "MusicNote",
   "MusicNotes",
   "MusicNotesSquare",
+  "Pause",
+  "Play",
 ];
 
 export const messagingIconNames: MessagingIconName[] = [
@@ -187,6 +220,8 @@ export const messagingIconNames: MessagingIconName[] = [
   "ChatReject",
   "ChatRemove",
   "Language",
+  "Newspaper",
+  "Phone",
 ];
 
 export const navigationIconNames: NavigationIconName[] = [
@@ -249,8 +284,16 @@ export const shapeIconNames: ShapeIconName[] = [
   "MinusCircleFilled",
   "Moon",
   "MoonFilled",
+  "Octagon",
+  "OctagonFilled",
+  "Oval",
+  "Parallelogram",
+  "ParallelogramFilled",
+  "Plus",
   "PlusCircle",
   "PlusCircleFilled",
+  "Pentagon",
+  "PentagonFilled",
 ];
 
 export const technologyIconNames: TechnologyIconName[] = [
@@ -291,7 +334,14 @@ export const technologyIconNames: TechnologyIconName[] = [
   "Laptop",
   "MobileDevice",
   "Monitor",
+  "Network",
+  "NodeJS",
+  "NextJS",
+  "NPM",
+  "Octocat",
   "PHP",
+  "Postgres",
+  "Python",
   "RSS",
   "TypeScript",
   "Upload",
