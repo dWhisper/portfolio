@@ -33,6 +33,12 @@ export type BrandIconName =
   | "Mastodon"
   | "Medium"
   | "Pinterest"
+  | "Reddit"
+  | "Slack"
+  | "Snapchat"
+  | "Soundcloud"
+  | "Spotify"
+  | "Telegram"
   | "Twitter"
   | "TikTok"
   | "Twitch"
@@ -92,7 +98,14 @@ export type DirectionIconName =
   | "PointerLeftFilled"
   | "PointerRightFilled"
   | "PointerUp"
-  | "PointerUpFilled";
+  | "PointerUpFilled"
+  | "SidebarLeft"
+  | "SidebarRight"
+  | "Sort"
+  | "TextAlignCenter"
+  | "TextAlignJustify"
+  | "TextAlignLeft"
+  | "TextAlignRight";
 
 export type EcomIconName =
   | "Bank"
@@ -104,7 +117,12 @@ export type EcomIconName =
   | "CreditCardAlt"
   | "Gift"
   | "Money"
-  | "PriceCut";
+  | "PriceCut"
+  | "Receipt"
+  | "ShippingBox"
+  | "ShippingBoxAlt"
+  | "ShoppingBag"
+  | "Tag";
 
 export type GenericIconName =
   | "Air"
@@ -165,6 +183,8 @@ export type GenericIconName =
   | "Flashlight"
   | "Gear"
   | "Glasses"
+  | "GraphDown"
+  | "GraphUp"
   | "Hammer"
   | "Hand"
   | "Hashtag"
@@ -186,6 +206,7 @@ export type GenericIconName =
   | "LockOn"
   | "Paper"
   | "PaperAirplane"
+  | "PaperAirplaneAlt"
   | "Pencil"
   | "PeopleGroup"
   | "PeopleMultiple"
@@ -199,7 +220,18 @@ export type GenericIconName =
   | "Plant"
   | "QuestionCircle"
   | "QuestionCircleFilled"
+  | "Radish"
+  | "Ribbon"
+  | "RockOn"
+  | "Schedule"
   | "Scissors"
+  | "ScissorsAlt"
+  | "Share"
+  | "SignOut"
+  | "Slice"
+  | "Sparkles"
+  | "Stop"
+  | "StopFilled"
   | "Tooth";
 
 export type MediaIconName =
@@ -214,7 +246,12 @@ export type MediaIconName =
   | "MusicNotes"
   | "MusicNotesSquare"
   | "Pause"
-  | "Play";
+  | "Play"
+  | "SoundDown"
+  | "SoundOff"
+  | "SoundOn"
+  | "SoundUp"
+  | "Ticket";
 
 export type MessagingIconName =
   | "AtSign"
@@ -248,6 +285,7 @@ export type NavigationIconName =
   | "ArrowHeight"
   | "ArrowLeft"
   | "ArrowLeftThick"
+  | "ArrowReduce"
   | "ArrowRepeat"
   | "ArrowRight"
   | "ArrowRightLeft"
@@ -267,8 +305,12 @@ export type NavigationIconName =
   | "ForkRight"
   | "FullScreen"
   | "Grid"
+  | "LinesHorizontal"
+  | "LinesVertical"
   | "LinkOut"
-  | "NormalScreen";
+  | "NormalScreen"
+  | "Search"
+  | "Telescope";
 
 export type ShapeIconName =
   | "Box"
@@ -299,7 +341,24 @@ export type ShapeIconName =
   | "PlusCircle"
   | "PlusCircleFilled"
   | "Pentagon"
-  | "PentagonFilled";
+  | "PentagonFilled"
+  | "RadioCircle"
+  | "RadioCircleFilled"
+  | "Shield"
+  | "ShieldFilled"
+  | "Square"
+  | "SquareFilled"
+  | "Star"
+  | "StarFilled"
+  | "Sun"
+  | "SunFilled"
+  | "Sword"
+  | "Tetragon"
+  | "TetragonFilled"
+  | "ThumbsDown"
+  | "ThumbsDownFilled"
+  | "ThumbsUp"
+  | "ThumbsUpFilled";
 
 export type TechnologyIconName =
   | "Android"
@@ -346,7 +405,15 @@ export type TechnologyIconName =
   | "PHP"
   | "Postgres"
   | "Python"
+  | "React"
+  | "Redux"
   | "RSS"
+  | "Sass"
+  | "Save"
+  | "SettingsHorizontal"
+  | "SettingsVertical"
+  | "StackOverflow"
+  | "TabletDevice"
   | "TypeScript"
   | "Upload"
   | "Vercel"

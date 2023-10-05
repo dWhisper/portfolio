@@ -48,6 +48,13 @@ import { PointerLeftFilled } from "../wrapped-icons/direction/PointerLeftFilled"
 import { PointerRightFilled } from "../wrapped-icons/direction/PointerRightFilled";
 import { PointerUp } from "../wrapped-icons/direction/PointerUp";
 import { PointerUpFilled } from "../wrapped-icons/direction/PointerUpFilled";
+import { SidebarLeft } from "../wrapped-icons/direction/SidebarLeft";
+import { SidebarRight } from "../wrapped-icons/direction/SidebarRight";
+import { SortIcon } from "../wrapped-icons/direction/SortIcon";
+import { TextAlignCenter } from "../wrapped-icons/direction/TextAlignCenter";
+import { TextAlignJustify } from "../wrapped-icons/direction/TextAlignJustify";
+import { TextAlignLeft } from "../wrapped-icons/direction/TextAlignLeft";
+import { TextAlignRight } from "../wrapped-icons/direction/TextAlignRight";
 import { Box } from "../wrapped-icons/shapes/Box";
 
 const DirectionIconCollection = new Map();
@@ -107,5 +114,12 @@ DirectionIconCollection.set("PointerLeftFilled", PointerLeftFilled);
 DirectionIconCollection.set("PointerRightFilled", PointerRightFilled);
 DirectionIconCollection.set("PointerUp", PointerUp);
 DirectionIconCollection.set("PointerUpFilled", PointerUpFilled);
+DirectionIconCollection.set("SidebarLeft", SidebarLeft);
+DirectionIconCollection.set("SidebarRight", SidebarRight);
+DirectionIconCollection.set("Sort", SortIcon);
+DirectionIconCollection.set("TextAlignCenter", TextAlignCenter);
+DirectionIconCollection.set("TextAlignLeft", TextAlignLeft);
+DirectionIconCollection.set("TextAlignJustify", TextAlignJustify);
+DirectionIconCollection.set("TextAlignRight", TextAlignRight);
 
 export { DirectionIconCollection };

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import React from "react";
 import { GenericIcon } from "../generic";
 import { genericIconNames } from "./icon-args";
-import React from "react";
 
 const meta: Meta<typeof GenericIcon> = {
   title: "Components/Icon/Generic",
@@ -10,6 +10,17 @@ const meta: Meta<typeof GenericIcon> = {
   argTypes: {
     name: {
       options: genericIconNames,
+    },
+    size: {
+      control: {
+        type: "range",
+        min: 10,
+        max: 100,
+        step: 1,
+      },
+    },
+    color: {
+      control: "presetColor",
     },
   },
 };
@@ -25,6 +36,15 @@ export const SmallGenericIcon: Story = {
 };
 
 export const AllGenericIcons: Story = {
+  decorators: [
+    (Story) => (
+      <div className={"grid"}>
+        <div className="grid__row">
+          <Story />
+        </div>
+      </div>
+    ),
+  ],
   render: () => {
     return (
       <div style={{ display: "flex" }}>

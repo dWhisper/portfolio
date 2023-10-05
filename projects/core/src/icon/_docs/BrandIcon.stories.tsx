@@ -1,5 +1,5 @@
-import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
+import React from "react";
 import { BrandIcon } from "../brand";
 import { brandIconNames } from "./icon-args";
 
@@ -10,6 +10,14 @@ const meta: Meta<typeof BrandIcon> = {
   argTypes: {
     name: {
       options: brandIconNames,
+    },
+    size: {
+      control: {
+        type: "range",
+        min: 10,
+        max: 100,
+        step: 1,
+      },
     },
   },
 };

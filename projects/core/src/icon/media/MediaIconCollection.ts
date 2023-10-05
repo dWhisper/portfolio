@@ -10,6 +10,11 @@ import { MusicNotes } from "../wrapped-icons/media/MusicNotes";
 import { MusicNotesSquare } from "../wrapped-icons/media/MusicNotesSquare";
 import { Pause } from "../wrapped-icons/media/Pause";
 import { Play } from "../wrapped-icons/media/Play";
+import { SoundDown } from "../wrapped-icons/media/SoundDown";
+import { SoundOff } from "../wrapped-icons/media/SoundOff";
+import { SoundOn } from "../wrapped-icons/media/SoundOn";
+import { SoundUp } from "../wrapped-icons/media/SoundUp";
+import { Ticket } from "../wrapped-icons/media/Ticket";
 import { Box } from "../wrapped-icons/shapes/Box";
 
 const MediaIconCollection = new Map();
@@ -29,5 +34,10 @@ MediaIconCollection.set("MusicNotes", MusicNotes);
 MediaIconCollection.set("MusicNotesSquare", MusicNotesSquare);
 MediaIconCollection.set("Pause", Pause);
 MediaIconCollection.set("Play", Play);
+MediaIconCollection.set("SoundDown", SoundDown);
+MediaIconCollection.set("SoundOff", SoundOff);
+MediaIconCollection.set("SoundOn", SoundOn);
+MediaIconCollection.set("SoundUp", SoundUp);
+MediaIconCollection.set("Ticket", Ticket);
 
 export { MediaIconCollection };
